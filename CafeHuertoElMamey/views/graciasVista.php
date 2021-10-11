@@ -2,18 +2,18 @@
 <div class="card" id="contenedor">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="#">Iniciar sesión</a></li>
-      <li class="breadcrumb-item"><a href="#">Datos de envío</a></li>
-      <li class="breadcrumb-item"><a href="#">Forma de pago</a></li>
-      <li class="breadcrumb-item">Verifica datos</li>
+      <li class="breadcrumb-item"><a href="#">Iniciar Sesión</a></li>
+      <li class="breadcrumb-item"><a href="#">Datos de Envío</a></li>
+      <li class="breadcrumb-item"><a href="#">Forma de Pago</a></li>
+      <li class="breadcrumb-item">Verificar datos</li>
     </ol>
   </nav>
   <h2><?php print $datos["data"]["nombre"]; ?>:</h2>
-  <h3>¡Gracias por vistarnos y hacer su compra! Estamos contentos de que haya encontrado lo que buscaba. Nuestro objetivo es que siempre esté satisfecho, así qvísenos de su nivel de satisfacción. Esperamos volver a verle pronto. ¡Que tenga un gran día!</h3>
+  <h3>¡Gracias por vistarnos y hacer su compra!, Estamos contentos de que haya encontrado lo que buscaba. Nuestro objetivo es que siempre esté satisfecho, así avísenos de su nivel de satisfacción. Esperamos volver a verle pronto. ¡Que tenga un gran día!</h3>
   <br>
   <h3>Atentamente:</h3>
   <br>
-  <h3>Cafe huerto el mamey ;)</h3>
+  <h3>Cafe Huerto El Mamey ;)</h3>
   <br>
   <div class="form-group text-left">
     <label for="enviar"></label>
