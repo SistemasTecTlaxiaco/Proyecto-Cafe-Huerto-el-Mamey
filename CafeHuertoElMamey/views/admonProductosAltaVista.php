@@ -11,7 +11,7 @@
 <div class="card p-4 bg-light">
   <form enctype="multipart/form-data" action="<?php print URL; ?>admonProductos/alta/" method="POST">
     <div class="form-group text-left">
-      <label for="usuario">* Tipo de producto:</label>
+      <label for="usuario">* Tipo de productos:</label>
       <select class="form-control" name="tipo" id="tipo"
       <?php
       if (isset($datos["baja"])) {
