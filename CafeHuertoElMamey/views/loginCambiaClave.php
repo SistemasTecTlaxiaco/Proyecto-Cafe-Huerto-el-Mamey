@@ -8,7 +8,7 @@
     </div>
 
     <div class="form-group text-left">
-      <label for="clave2">Repite la clave acceso:</label>
+      <label for="clave2">Por favor repita la clave acceso:</label>
       <input type="password" name="clave2" class="form-control">
     </div>
 
