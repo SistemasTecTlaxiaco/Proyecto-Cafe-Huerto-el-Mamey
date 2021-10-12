@@ -17,7 +17,7 @@
       <label><input type="radio" name="pago" value="tc2">Tarjeta de crédito Visa</label>
     </div>
     <div class="radio">
-      <label><input type="radio" name="pago" value="td">Tarjeta de débito</label>
+      <label><input type="radio" name="pago" value="td">Tarjeta de débito MasterCard</label>
     </div>
     <div class="radio">
       <label><input type="radio" name="pago" value="efectivo">Efectivo</label>
@@ -26,7 +26,7 @@
       <label><input type="radio" name="pago" value="paypal">Paypal</label>
     </div>
     <div class="radio">
-      <label><input type="radio" name="pago" value="bitcoins">Bitcoins</label>
+      <label><input type="radio" name="pago" value="bitcoins">Criptomonedas</label>
     </div>
     <div class="form-group text-left">
       <label for="enviar"></label>
