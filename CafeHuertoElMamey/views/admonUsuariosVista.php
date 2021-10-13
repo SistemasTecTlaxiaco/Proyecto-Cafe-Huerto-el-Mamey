@@ -1,11 +1,11 @@
 <?php include_once("encabezado.php"); ?>
-<h1 class="text-center">Alta de un usuario administrativo</h1>
+<h1 class="text-center">Alta de un usuario Administrativo</h1>
 <div class="card p-4 bg-light">
   <form action="<?php print URL; ?>admonUsuarios/alta/" method="POST">
     <div class="form-group text-left">
       <label for="usuario">* Usuario:</label>
       <input type="email" name="usuario" class="form-control" required
-      placeholder="Escribe tu usuario (tu correo electrónico)"
+      placeholder="Escribe tu usuario o tu correo electrónico"
       value="<?php 
       print isset($datos['data']['usuario'])?$datos['data']['usuario']:''; 
       ?>"
@@ -33,7 +33,7 @@
     <div class="form-group text-left">
       <label for="nombre">* Nombre:</label>
       <input type="text" name="nombre" class="form-control"
-      placeholder="Escribe tu nombre" required
+      placeholder="Escribe tu Nombre" required
       value="<?php 
       print isset($datos['data']['nombre'])?$datos['data']['nombre']:''; 
       ?>"
