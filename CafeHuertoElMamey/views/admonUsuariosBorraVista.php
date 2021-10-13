@@ -5,7 +5,7 @@
     <div class="form-group text-left">
       <label for="correo">Usuario:</label>
       <input type="email" name="correo" class="form-control" disabled
-      placeholder="Escribe tu usuario (tu correo electrónico)"
+      placeholder="Digita tu usuario o tu correo electrónico"
       value="<?php 
       print isset($datos['data']['correo'])?$datos['data']['correo']:''; 
       ?>"
@@ -15,7 +15,7 @@
     <div class="form-group text-left">
       <label for="nombre">Nombre:</label>
       <input type="text" name="nombre" class="form-control"
-      placeholder="Escribe tu nombre" disabled
+      placeholder="Escribe tu Nombre" disabled
       value="<?php 
       print isset($datos['data']['nombre'])?$datos['data']['nombre']:''; 
       ?>"
