@@ -2,13 +2,13 @@
 <div class="card" id="contenedor">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="#">Iniciar sesión</a></li>
-      <li class="breadcrumb-item"><a href="#">Datos de envío</a></li>
-      <li class="breadcrumb-item"><a href="#">Forma de pago</a></li>
+      <li class="breadcrumb-item"><a href="#">Iniciar Sesión</a></li>
+      <li class="breadcrumb-item"><a href="#">Datos de Envío</a></li>
+      <li class="breadcrumb-item"><a href="#">Forma de Pago</a></li>
       <li class="breadcrumb-item">Verifica datos</li>
     </ol>
   </nav>
-  <h2>Verifique los datos antes de continuar</h2>
+  <h2>Verifique los datos antes de continua con su compra</h2>
 <?php
   //
   //Variables de trabajo
