@@ -6,6 +6,8 @@
       <li class="breadcrumb-item"><a href="#">Datos de Envío</a></li>
       <li class="breadcrumb-item"><a href="#">Forma de Pago</a></li>
       <li class="breadcrumb-item">Verificar datos</li>
+    //<li class="breadcrumb-item"><a href="#">Verificar Contraseña</a></li>
+    //<li class="breadcrumb-item">Verificar Envío</li>
     </ol>
   </nav>
   <h2><?php print $datos["data"]["nombre"]; ?>:</h2>
