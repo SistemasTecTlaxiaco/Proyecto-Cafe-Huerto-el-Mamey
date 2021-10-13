@@ -5,7 +5,7 @@
     <div class="form-group text-left">
       <label for="correo">Usuario:</label>
       <input type="email" name="correo" class="form-control" disabled
-      placeholder="Escribe tu usuario (tu correo electrónico)"
+      placeholder="Escribe tu Usuario (tu correo electrónico)"
       value="<?php 
       print isset($datos['data']['correo'])?$datos['data']['correo']:''; 
       ?>"
@@ -43,7 +43,7 @@
       <input type="hidden" id="id" name="id" value="<?php print $datos['data']['id']; ?>"/>
       <input type="submit" value="Si" class="btn btn-danger">
       <a href="<?php print URL; ?>admonUsuarios" class="btn btn-danger">No</a>
-      <p>Una vez que los datos son borrados, no se puede recuperar.</p>
+      <p>Una vez que los datos son borrados, no se puede recuperar..</p>
     </div>
   </form>
 </div><!--card-->
