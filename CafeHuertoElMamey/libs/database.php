@@ -3,9 +3,9 @@
  * Manejo de la base de datos MySQL
  */
 class database{
-  private $host = "localhost";
+  private $host = "localhost:3307";
   private $usuario = "root";
-  private $clave = "123"; 
+  private $clave = "1234"; 
   private $db = "bdcafetienda";
   private $puerto = "8101";
   private $conn;
