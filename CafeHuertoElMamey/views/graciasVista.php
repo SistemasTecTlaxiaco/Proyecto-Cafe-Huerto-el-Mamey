@@ -3,8 +3,10 @@
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="#">Iniciar Sesión</a></li>
+      //<li class="breadcrumb-item"><a href="#">Verificar Contraseña</a></li>
       <li class="breadcrumb-item"><a href="#">Datos de Envío</a></li>
       <li class="breadcrumb-item"><a href="#">Forma de Pago</a></li>
+      //<li class="breadcrumb-item"><a href="#">Verificar pago</a></li>
       <li class="breadcrumb-item">Verificar datos</li>
     </ol>
   </nav>
