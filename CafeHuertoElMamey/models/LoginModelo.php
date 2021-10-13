@@ -19,9 +19,9 @@ class LoginModelo{
       $sql.= "'".$data["apellidoPaterno"]."', ";
       $sql.= "'".$data["apellidoMaterno"]."', ";
       $sql.= "'".$data["email"]."', ";
-      $sql.= "'".$data["direccion"]."', ";
-      $sql.= "'".$data["ciudad"]."', ";
-      $sql.= "'".$data["colonia"]."', ";
+      $sql.= "'".$data["Direccion"]."', ";
+      $sql.= "'".$data["Ciudad"]."', ";
+      $sql.= "'".$data["Colonia"]."', ";
       $sql.= "'".$data["estado"]."', ";
       $sql.= "'".$data["codpos"]."', ";
       $sql.= "'".$data["pais"]."', ";
