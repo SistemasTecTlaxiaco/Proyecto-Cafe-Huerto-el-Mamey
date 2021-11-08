@@ -51,7 +51,7 @@ class LoginModelo{
     $errores = array();
     $sql = "SELECT * FROM usuarios WHERE email='".$usuario."'";
     $clave = hash_hmac("sha512", $clave, "mimamamemima");
-    $clave = substr($clave,0,200);
+    $clave = substr($clave,0,8);
     //consulta
     $data = $this->db->query($sql);
     //validacion
