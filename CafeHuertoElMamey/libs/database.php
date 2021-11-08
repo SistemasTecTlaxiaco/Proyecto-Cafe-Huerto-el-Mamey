@@ -5,9 +5,9 @@
 class database{
   private $host = "localhost:3307";
   private $usuario = "root";
-  private $clave = "1234"; 
+  private $clave = ""; 
   private $db = "bdcafetienda";
-  private $puerto = "8101";
+  private $puerto = "";
   private $conn;
   
   function __construct()
