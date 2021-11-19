@@ -1,6 +1,8 @@
-name: PHP Composer
+name: Deploy Git Hun Actions
 
-on:
+on: 
+  pull_request:
+
   push:
     branches: -main 
     
