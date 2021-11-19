@@ -1,6 +1,6 @@
 <?php
 /**
- * Controlador para productos
+ * Controlador para productos de carritos
  */
 class AdmonProductos extends Controlador
 {
@@ -42,7 +42,7 @@ class AdmonProductos extends Controlador
     $data = array();
     $errores = array();
 
-    //Leemos la llaves de tipoProducto
+    //Leemos la llaves de tipoProducto indicado
     $llaves = $this->modelo->getLlaves("tipoProducto");
 
     //Leemos los estatus del producto
