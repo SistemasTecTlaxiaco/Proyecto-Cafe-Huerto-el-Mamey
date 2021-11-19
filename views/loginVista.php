@@ -13,8 +13,8 @@
     </div>
     <div class="form-group text-left">
       <label for="clave">Clave acceso:</label>
-      <input type="password" name="clave" class="form-control"
-      placeholder="Escribe tu clave de acceso (sin espacios en blanco)"
+      <input type="password" name="clave" class="form-control" maxlength="8"
+      placeholder="Escribe tu clave de acceso (sin espacios en blanco, máximo 8 caracteres)"
       value="<?php 
       print isset($datos['data']['clave'])?$datos['data']['clave']:''; 
       ?>"

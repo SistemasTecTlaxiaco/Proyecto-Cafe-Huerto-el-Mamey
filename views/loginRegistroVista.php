@@ -24,12 +24,12 @@
 
     <div class="form-group text-left">
       <label for="clave1">* Clave de acceso:</label>
-      <input type="password" name="clave1" id="clave1" class="form-control" placeholder="Escriba su clave de acceso" required value='<?php isset($datos["data"]["clave1"])? print $datos["data"]["clave1"]:""; ?>'/>
+      <input type="password" name="clave1" id="clave1" class="form-control" placeholder="Escriba su clave de acceso" maxlength="8" required value='<?php isset($datos["data"]["clave1"])? print $datos["data"]["clave1"]:""; ?>'/>
     </div>
 
     <div class="form-group text-left">
       <label for="clave2">* Repetir clave de acceso:</label>
-      <input type="password" name="clave2" id="clave2" class="form-control" placeholder="Verifique su clave de acceso" required value='<?php isset($datos["data"]["clave2"])? print $datos["data"]["clave2"]:""; ?>'/>
+      <input type="password" name="clave2" id="clave2" class="form-control" placeholder="Verifique su clave de acceso" maxlength="8" required value='<?php isset($datos["data"]["clave2"])? print $datos["data"]["clave2"]:""; ?>'/>
     </div>
 
     <div class="form-group text-left">
