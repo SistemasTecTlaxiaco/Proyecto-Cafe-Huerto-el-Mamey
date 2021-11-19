@@ -1,6 +1,6 @@
 <?php
 /**
- * Login Carrito
+ * Login Carrito Corregido
  */
 class CarritoModelo{
   private $db;
