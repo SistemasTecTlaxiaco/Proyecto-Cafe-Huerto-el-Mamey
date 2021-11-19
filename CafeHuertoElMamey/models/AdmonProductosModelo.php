@@ -1,6 +1,6 @@
 <?php
 /**
- * Modelo Productos Admon.
+ * Modelo Productos Admistrador
  */
 class AdmonProductosModelo{
   private $db;
