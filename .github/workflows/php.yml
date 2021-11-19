@@ -1,8 +1,6 @@
 name: Deploy Git Hun Actions
 
 on: 
-  pull_request:
-
   push:
     branches: -main 
     
@@ -12,11 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@master
     - uses: akhileshns/heroku-deploy@v3.12.12
 
       with:
-        API_KEY: ${{secrets.API_KEY}}
+        api_key: ${{secrets.API_KEY}}
         heroku_app_name: "cafehuertoapp"
         heroku_email: "moty5871@gmail.com"
 
