@@ -1,6 +1,6 @@
 <?php
 /**
- * Controlador Login
+ * Controlador Loginn de vistas
  */
 class AdmonInicio extends Controlador{
   private $modelo;
@@ -16,14 +16,14 @@ class AdmonInicio extends Controlador{
 
     if($sesion->getLogin()){
       $datos = [
-        "titulo" => "Administrativo | inicio",
+        "titulo" => "Administrativos | inicio",
         "menu" => false,
         "admon" => true,
         "data" => []
       ];
       $this->vista("AdmonInicioVista",$datos);
     } else {
-      header("location:".URL."admon");
+      header("location:".URL."admin");
     }
   }
 
