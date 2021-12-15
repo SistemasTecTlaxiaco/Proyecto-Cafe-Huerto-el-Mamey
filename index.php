@@ -9,4 +9,3 @@ require_once 'libs/Valida.php';
 require_once 'config/config.php';
 $control = new Control();
 ?>
-/* Se cargan las iniciales e inmediatamente despues se lanza la interfaz*/
