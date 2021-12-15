@@ -35,7 +35,7 @@ for ($i=0; $i < count($datos["data"]); $i++) {
   $tot = $can*$pre;
   //
   print "<tr>";
-  print "<td><img src='".URL."img/".$img."' width='105' alt'".$nom."'></td>";
+  print "<td><img src='".URL."public/img/".$img."' width='105' alt'".$nom."'></td>";
   print "<td>".$desc."..</td>";
   print "<td class='text-right'>";
   print "<input type='number' name='c".$i."' class='text-right' ";
