@@ -19,7 +19,7 @@ class Libros extends Controlador{
       $data = $this->getLibros();
       //
       $datos = [
-        "titulo" => "Libros",
+        "titulo" => "Cafes",
         "activo" => "libros",
         "data" => $data,
         "menu" => true
