@@ -120,7 +120,7 @@ class Login extends Controlador{
       $data = [
         "nombre"=>$nombre,
         "apellidoPaterno" => $apellidoPaterno,
-        "apellidoMaterno" => $apellidoMaterno,
+        //"apellidoMaterno" => $apellidoMaterno,
         "email" => $email,
         "clave1" => $clave1,
         "clave2" => $clave2,
