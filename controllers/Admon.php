@@ -59,7 +59,7 @@ class Admon extends Controlador{
           $sesion->iniciarLogin($data);
           
           //Abrimos admonInicio
-          header("location:".URL."admonInicio");
+          header("location:".URL."admon/verifica");
         } 
       } 
     } 
