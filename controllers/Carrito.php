@@ -150,7 +150,7 @@ class Carrito extends Controlador{
       "errores" => [],
       "data" => [],
       "subtitulo" => "Error la actualización del carrito",
-      "texto" => "Existió un problema al actualizar el estado del carrito. Prueba por favor más tarde o comuníquese a nuestro servicio de soporte técnico.",
+      "texto" => "Existió un problema al actualizar el estado del carrito. Prueba por favor más tarde o comuníquese con.",
       "color" => "alert-danger",
       "url" => "tienda",
       "colorBoton" => "btn-danger",
