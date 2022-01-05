@@ -12,7 +12,7 @@ class Admon extends Controlador{
   public function caratula()
   {
     $datos = [
-      "titulo" => "Administrativo",
+      "titulo" => "Usuarios Administrativos",
       "menu" => false,
       "data" => []
     ];
