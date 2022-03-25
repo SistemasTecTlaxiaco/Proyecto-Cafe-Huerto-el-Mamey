@@ -27,11 +27,11 @@
       print "'>Cafes</a>";
       print "</li>";
       //
-      /*print "<li class='nav-item'>";
+      print "<li class='nav-item'>";
       print "<a href='".URL."sobremi' class='nav-link ";
       if(isset($datos["activo"]) && $datos["activo"]=="sobremi") print "active";
       print "'>Sobre mi</a>";
-      print "</li>";*/
+      print "</li>";
       //
       print "<li class='nav-item'>";
       print "<a href='".URL."contacto' class='nav-link ";
