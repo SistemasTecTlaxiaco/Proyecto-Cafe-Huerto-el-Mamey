@@ -27,17 +27,24 @@
       print "'>Cafes</a>";
       print "</li>";
       //
-      /*
+      
       print "<li class='nav-item'>";
       print "<a href='".URL."sobremi' class='nav-link ";
       if(isset($datos["activo"]) && $datos["activo"]=="sobremi") print "active";
-      print "'>Sobre mi</a>";
-      print "</li>";*/
+      print "'>Realidad aumentada</a>";
+      print "</li>";
       //
-      print "<li class='nav-item'>";
+     /*  print "<li class='nav-item'>";
       print "<a href='".URL."contacto' class='nav-link ";
       if(isset($datos["activo"]) && $datos["activo"]=="contacto") print "active";
       print "'>Contacto</a>";
+      print "</li>";
+      print "</ul>"; */
+
+      print "<li class='nav-item'>";
+      print "<a href='".URL."contacto' class='nav-link ";
+      if(isset($datos["activo"]) && $datos["activo"]=="contacto") print "active";
+      print "'>Asistente</a>";
       print "</li>";
       print "</ul>";
       //
