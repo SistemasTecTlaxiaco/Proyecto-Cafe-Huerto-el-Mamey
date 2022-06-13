@@ -2,7 +2,7 @@
 echo '<!doctype html>';
 echo '<html lang="en">';
 echo '<head>';
-echo '<title>Realidad aumentada</title>';
+/* echo '<title>Realidad aumentada</title>'; */
 echo '<meta charset="utf-8">';
 echo '<meta name="description" content="&lt;model-viewer&gt; template">';
 echo '<meta name="viewport" content="width=device-width, initial-scale=1">';
