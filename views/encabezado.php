@@ -31,7 +31,7 @@
       print "<li class='nav-item'>";
       print "<a href='".URL."sobremi' class='nav-link ";
       if(isset($datos["activo"]) && $datos["activo"]=="sobremi") print "active";
-      print "'>Realidad aumentada</a>";
+      print "'>Realidad</a>";
       print "</li>";
       //
      /*  print "<li class='nav-item'>";
