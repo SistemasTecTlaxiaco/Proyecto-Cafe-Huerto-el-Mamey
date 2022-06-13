@@ -46,6 +46,7 @@
       if(isset($datos["activo"]) && $datos["activo"]=="contacto") print "active";
       print "'>Asistente</a>";
       print "</li>";
+      print "</ul>";
       //
       //Formulario lado derecho
       //
