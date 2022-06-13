@@ -31,7 +31,7 @@
       print "<li class='nav-item'>";
       print "<a href='".URL."sobremi' class='nav-link ";
       if(isset($datos["activo"]) && $datos["activo"]=="sobremi") print "active";
-      print "'>Realidad</a>";
+      print "'>Nosotros</a>";
       print "</li>";
       //
      /*  print "<li class='nav-item'>";
