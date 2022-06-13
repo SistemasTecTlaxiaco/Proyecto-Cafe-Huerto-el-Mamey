@@ -31,7 +31,7 @@
       print "<li class='nav-item'>";
       print "<a href='".URL."sobremi' class='nav-link ";
       if(isset($datos["activo"]) && $datos["activo"]=="sobremi") print "active";
-      print "'>Nosotros</a>";
+      print "'>Realidad</a>";
       print "</li>";
       //
      /*  print "<li class='nav-item'>";
@@ -46,7 +46,6 @@
       if(isset($datos["activo"]) && $datos["activo"]=="contacto") print "active";
       print "'>Asistente</a>";
       print "</li>";
-      print "</ul>";
       //
       //Formulario lado derecho
       //
