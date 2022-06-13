@@ -236,7 +236,7 @@
 	</div>
       </div>
       <!-- https://mindarealidad.herokuapp.com -->
-      <a-scene mindar-image="imageTargetSrc: http://localhost/tiendahuerto/public/targets.mind; showStats: false; uiScanning: #example-scanning-overlay;" embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+      <a-scene mindar-image="imageTargetSrc: https://cafehuertoapp.herokuapp.com/public/targets.mind; showStats: false; uiScanning: #example-scanning-overlay;" embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-assets>
           <img id="card" src="public/hiukim.github.io/mind-ar-js-doc/samples/assets/card-example/portfolio/cafe15.jpg" />
           <!-- <img id="icon-web" src="public/hiukim.github.io/mind-ar-js-doc/samples/assets/card-example/icons/web.png" /> -->
@@ -253,7 +253,7 @@
           <img id="coffeemachine-preview" src="public/hiukim.github.io/mind-ar-js-doc/samples/assets/card-example/portfolio/coffeemachine-preview.jpeg" />
           <img id="peak-preview" src="public/hiukim.github.io/mind-ar-js-doc/samples/assets/card-example/portfolio/peak-preview.jpeg" />
           <!-- https://mindarealidad.herokuapp.com -->
-          <a-asset-item id="avatarModel" src="http://localhost/tiendahuerto/public/BolsaAnimacion.glb"></a-asset-item>
+          <a-asset-item id="avatarModel" src="https://cafehuertoapp.herokuapp.com/public/BolsaAnimacion.glb"></a-asset-item>
         </a-assets>
 
         <a-camera position="0 0 0" look-controls="enabled: false" cursor="fuse: false; rayOrigin: mouse;" raycaster="far: 10000; objects: .clickable">
