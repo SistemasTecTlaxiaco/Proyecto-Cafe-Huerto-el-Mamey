@@ -23,6 +23,10 @@ El programa se basa en la publicidad de los productos dedicados al café orgáni
 
 #INSTALACIÓN LOCAL LIBRERÍA PASOS PARA REALIZAR LA INSTALACIÓN LOCAL 
 
+   <script src="public/cdn.jsdelivr.net/gh/hiukim/mind-ar-js%401.0.0/dist/mindar-image.prod.js"></script>
+    <script src="public/aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="public/cdn.jsdelivr.net/gh/hiukim/mind-ar-js%401.0.0/dist/mindar-image-aframe.prod.js"></script>
+
 #UTILIZAR NPM
 
 #VÍDEO CORTO CON DURACIÓN MÍNIMA DE UNOS MINUTOS DEMO DE LA REALIDAD AUMENTADA
@@ -32,5 +36,10 @@ El programa se basa en la publicidad de los productos dedicados al café orgáni
 #ROL ----> DESCRIPCIÓN
 
 #LINKS DE LIBRERÍAS UTILIZADAS 
+
+   <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
 #LINK DEL PROYECTO FINAL
